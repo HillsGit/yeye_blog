@@ -7,8 +7,8 @@ title: 不上班公社
 subtitle: ''
 description: ''
 keywords:
-author: yeye Hill
-language: en
+author: Yeye Hill
+language: 
 timezone: ''
 
 # URL
@@ -28,7 +28,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
+i18n_dir: lang
 skip_render:
 
 # Writing

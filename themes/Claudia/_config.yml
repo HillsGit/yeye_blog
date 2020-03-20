@@ -2,12 +2,17 @@
 menu:
   主页: /
   数字游民: /digital
-  环球旅居: /travel
+  全球旅居: /travel
   宝石买手: /gembuy
   知识星球: /knowledge_planet
+  # home: /
+  # digital: /digital
+  # travel: /travel
+  # gembuy: /gembuy
+  # knowledge_planet: /knowledge_planet
   #Tags: /tags
 
-rss: /atom.xml
+rss: /atom.xml 
 
 # User Info
 user_name: 不上班公社
@@ -47,7 +52,7 @@ disqus_url: https://haojen.disqus.com/embed.js
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: http://q7fm0u7rl.bkt.clouddn.com/WechatIMG18.png
 #twitter:
 #google_plus:
 #fb_admins:
