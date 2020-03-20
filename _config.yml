@@ -98,4 +98,6 @@ theme: Claudia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/HillsGit/hillsgit.github.io.git
+  branch: master
