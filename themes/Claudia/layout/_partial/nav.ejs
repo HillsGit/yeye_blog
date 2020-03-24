@@ -18,12 +18,20 @@
             <a class="nav-item" id="search">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </a>
-            <% for (var menu in theme.menu) { %>
-            <a class="nav-item" href="<%- url_for(theme.menu[menu])%>">
-                <%- menu %>
-            </a>
+            <% for (var menu in theme.menus) { %>
+                <ul class="nav-m">
+                   <li class="drop-down nav-item"> <a href="<%- url_for(theme.menus[menu].path)%>"><%- menu %></a> </li>
+                   <% for (var submenu in theme.menus[menu].submenus) { %>
+                   <ul class="drop-down-content">
+                        <li> 
+                            <a href="<%- url_for(theme.menus[menu].submenus[submenu].path)%>"><%- submenu %></a>
+                        </li>
+                    </ul>
+                    <% } %> 
+                </ul>
             <% } %>
         </div>
+
         <span class="nav-toggle" id="navMenuDropdown">
             <span></span>
             <span></span>

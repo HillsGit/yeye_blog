@@ -1,50 +1,51 @@
 # Header
 
-# menus:
-#   首页: { path: /}
-#   数字游民: { path: /digital_nomad, submenus: { 
-#     生活方式: {path: /categories/技术/ }, 
-#     游民故事: {path: /categories/生活/ }, 
-#     资源工具: {path: /categories/资源/ }, 
-#     理财: {path: /categories/随想/}
-#   } }
-#   环球旅居: { path: /digital_nomad, submenus: { 
-#     如何旅行: {path: /categories/技术/ }, 
-#     旅行故事: {path: /categories/生活/ }
-#   } }
-#   自我提升: { path: /digital_nomad, submenus: { 
-#     思维模式: {path: /categories/技术/ }, 
-#     读书: {path: /categories/生活/ }, 
-#     播客: {path: /categories/资源/ }
-#   } }
-#   英文工具化: { path: /digital_nomad, submenus: { 
-#     学习经历: {path: /categories/技术/ }, 
-#     运用思维: {path: /categories/生活/ }, 
-#     学习包: {path: /categories/资源/ }, 
-#     资源: {path: /categories/随想/}
-#   } }
-#   宝石买手: { path: /digital_nomad, submenus: { 
-#     祖母绿花园: {path: /categories/技术/ }, 
-#     GIA证书钻石: {path: /categories/生活/ }, 
-#     红蓝宝石: {path: /categories/资源/ }, 
-#     海蓝宝: {path: /categories/随想/},
-#     求婚/婚礼定制: {path: /categories/随想/},
-#     其他: {path: /categories/随想/}
+menus:
+  首页: { path: /}
+  数字游民: { path: /digital_nomad, 
+    submenus: { 
+      生活方式: {path: /categories/技术/ }, 
+      游民故事: {path: /categories/生活/ }, 
+      资源工具: {path: /categories/资源/ }, 
+      理财: {path: /categories/随想/},
+  } }
+  环球旅居: { path: /digital_nomad, submenus: { 
+    如何旅行: {path: /categories/技术/ }, 
+    旅行故事: {path: /categories/生活/ }
+  } }
+  自我提升: { path: /digital_nomad, submenus: { 
+    思维模式: {path: /categories/技术/ }, 
+    读书: {path: /categories/生活/ }, 
+    播客: {path: /categories/资源/ }
+  } }
+  英文工具化: { path: /digital_nomad, submenus: { 
+    学习经历: {path: /categories/技术/ }, 
+    运用思维: {path: /categories/生活/ }, 
+    学习包: {path: /categories/资源/ }, 
+    资源: {path: /categories/随想/}
+  } }
+  宝石买手: { path: /digital_nomad, submenus: { 
+    祖母绿花园: {path: /categories/技术/ }, 
+    GIA证书钻石: {path: /categories/生活/ }, 
+    红蓝宝石: {path: /categories/资源/ }, 
+    海蓝宝: {path: /categories/随想/},
+    求婚/婚礼定制: {path: /categories/随想/},
+    其他: {path: /categories/随想/}
 
-#   } }
-#    知识星球: { path: /digital_nomad, submenus: { 
-#     不上班公社: {path: /categories/技术/ }
-#   } }
+  } }
+  #  知识星球: { path: /digital_nomad, submenus: { 
+  #   不上班公社: {path: /categories/技术/ }
+  # } }
   
-menu:
+# menu:
 
-  主页: /
-  数字游民: /digital_nomad
-  环球旅居: /travel
-  自我提升: /self-improvement
-  英文工具化: / english_learning
-  宝石买手: /gemstones
-  知识星球: /knowledge_planet
+#   主页: /
+#   数字游民: /digital_nomad
+#   环球旅居: /travel
+#   自我提升: /self-improvement
+#   英文工具化: / english_learning
+#   宝石买手: /gemstones
+#   知识星球: /knowledge_planet
   
   # home: /
   # digital: /digital
