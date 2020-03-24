@@ -1,9 +1,12 @@
 # Header
 menu:
+
   主页: /
-  数字游民: /digital
-  全球旅居: /travel
-  宝石买手: /gembuy
+  数字游民: /digital_nomad
+  环球旅居: /travel
+  自我提升: /self-improvement
+  英文工具化: / english_learning
+  宝石买手: /gemstones
   知识星球: /knowledge_planet
   # home: /
   # digital: /digital
